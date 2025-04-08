@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "HDRP unityProject.sln"
+    "dotnet.defaultSolution": "HDRP-unityProject2025.sln"
 }
