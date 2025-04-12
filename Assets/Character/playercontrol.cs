@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
 
@@ -16,14 +16,13 @@ public class Playercontrol : MonoBehaviour
     public float standHeight = 1f;
     public float crouchHeight = 0.5f;
 
-
     private void Start()
     {
         currentSpeed = walkSpeed;
-
     }
     void Update()
     {
+
         if (Input.GetKey(KeyCode.LeftControl))
         {
             if (!crouch)
@@ -59,9 +58,6 @@ public class Playercontrol : MonoBehaviour
                 currentSpeed = walkSpeed;
             }
         }
-
-        
-        
     }
     private void FixedUpdate()
     {
