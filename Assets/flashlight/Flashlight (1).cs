@@ -1,44 +1,39 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Flashlight : MonoBehaviour
 {
-    public GameObject flashlight;
+    public GameObject flashlightLight;
 
     public AudioSource turnOn;
     public AudioSource turnOff;
 
-    public bool on;
-    public bool off;
-
-
-
-
+    public bool power;
+    
     void Start()
     {
-        off = true;
-        flashlight.SetActive(false);
+        power = false;
+        flashlightLight.SetActive(false);
     }
 
 
 
 
-    void Update()
+    private void Update()
     {
-        if(off && Input.GetButtonDown("F"))
+        if((power == false) && (Input.GetKeyDown(KeyCode.F)))
         {
-            flashlight.SetActive(true);
+            flashlightLight.SetActive(true);
             turnOn.Play();
-            off = false;
-            on = true;
-        }
-        else if (on && Input.GetButtonDown("F"))
+            power = true;
+        }  
+        else if (power && Input.GetKeyDown(KeyCode.F))
         {
-            flashlight.SetActive(false);
+            flashlightLight.SetActive(false);
             turnOff.Play();
-            off = true;
-            on = false;
+            power = false;
         }
 
 

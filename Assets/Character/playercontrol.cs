@@ -1,6 +1,9 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 
 public class Playercontrol : MonoBehaviour
@@ -72,4 +75,6 @@ public class Playercontrol : MonoBehaviour
 
         transform.Translate((movement * currentSpeed) * Time.deltaTime);
     }
+    
+   
 }
