@@ -8,7 +8,6 @@ using UnityEngine.SceneManagement;
 
 public class brownThomas2 : MonoBehaviour
 {
-    public int SceneIndex;
     public BoxCollider Collider;
     public bool isImgOn;
     public AudioSource die;
@@ -29,7 +28,7 @@ public class brownThomas2 : MonoBehaviour
             {
             img.enabled = false;
             die.Play();
-            SceneManager.LoadScene(SceneIndex);
+            SceneManager.LoadScene(2);
             }
         }
     }
