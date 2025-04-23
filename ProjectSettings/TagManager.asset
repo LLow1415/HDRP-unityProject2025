@@ -8,6 +8,10 @@ TagManager:
   - StaticThomas
   - UI
   - Flashlight
+  - Item
+  - EscapeKey
+  - Enemy
+  - EscapeDoor
   layers:
   - Default
   - TransparentFX

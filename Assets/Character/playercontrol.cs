@@ -8,9 +8,9 @@ using UnityEngine.SceneManagement;
 
 public class Playercontrol : MonoBehaviour
 {
-    public float walkSpeed = 4f;
-    public float sprintSpeed = 7.5f;
-    public float crouchSpeed = 2.0f;
+    public float walkSpeed = 8f;
+    public float sprintSpeed = 15f;
+    public float crouchSpeed = 4.0f;
 
     public bool sprint = false;
     public bool crouch = false;

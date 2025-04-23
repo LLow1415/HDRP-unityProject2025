@@ -23,6 +23,30 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/Scenes/Floor 4/SpawnRoom.unity
+    guid: 8e4111ca5c3f66240956689a5768d90d
+  - enabled: 0
+    path: Assets/Scenes/Floor 4/Hall.unity
+    guid: 678d07647dc9c444392513d97b55e0f6
+  - enabled: 0
+    path: Assets/Scenes/Floor 4/BathroomA.unity
+    guid: 2addefb337ca7be43bb6bb5dfe7eb8b3
+  - enabled: 0
+    path: Assets/Scenes/Floor 4/BathroomB.unity
+    guid: 07acd3bc26f6dfa459aabe0a454fd6d4
+  - enabled: 0
+    path: Assets/Scenes/Floor 4/ClassA.unity
+    guid: def726bacdc73cc4ea44cfd234fae343
+  - enabled: 0
+    path: Assets/Scenes/Floor 4/ClassB.unity
+    guid: a46ef217c2b08854fb1e83356975178a
+  - enabled: 0
+    path: Assets/Scenes/Floor 4/ClassC.unity
+    guid: a885452f3121a4949b2e6d27a7e445a2
+  - enabled: 0
+    path: Assets/Scenes/Floor 4/Hole.unity
+    guid: d260a3fae4d3b154aac292a3f34c5485
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
