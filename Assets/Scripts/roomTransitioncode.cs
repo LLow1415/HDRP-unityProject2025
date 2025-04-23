@@ -1,13 +1,12 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-//using UnityEngine.SceneManagement;
 
 
 
 public class roomTransitioncode : MonoBehaviour
 {
-
+    public AudioSource doorPlay;
     public bool nearFront = false;
 
     public static int x = 0,y = 0,z = 0;
@@ -22,11 +21,14 @@ public class roomTransitioncode : MonoBehaviour
         player = GameObject.FindGameObjectWithTag ("Player");
     }
 
+   
+
     void Update()
     {
         
             if(Input.GetKeyDown(KeyCode.E) && nearFront){
                 Debug.Log("tests");
+                doorPlay.Play();
                 player.SetActive(false);
                 player.transform.position = player.transform.position + xyz;
                 player.SetActive(true);

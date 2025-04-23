@@ -12,6 +12,8 @@ TagManager:
   - EscapeKey
   - Enemy
   - EscapeDoor
+  - SafeZone
+  - DoorAudio
   layers:
   - Default
   - TransparentFX
